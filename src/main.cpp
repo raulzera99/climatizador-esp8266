@@ -17,10 +17,13 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 // MQTT Credentials
-//const char* ssid = "REP - 2.4Gh";
-//const char* password = "3B9E4F45";
-const char* ssid = "IoT";
-const char* password = "ifspifsp";
+// const char* ssid = "REP - 2.4Gh";
+// const char* password = "3B9E4F45";
+// const char* ssid = "IoT";
+// const char* password = "ifspifsp";
+const char* ssid = "iPhone de Raul";
+const char* password = "Digital123";
+
 const char* mqttServer = "broker.hivemq.com";
 const char* mqttUsername = "";
 const char* mqttPassword = "";
